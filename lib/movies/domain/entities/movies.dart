@@ -9,7 +9,7 @@ class Movie extends Equatable{
   final String releaseDate;
   final double voteAverage;
 
-  Movie({
+  const Movie({
     required this.title,
     required this.id,
     required this.backdropPath,
